@@ -318,3 +318,52 @@ font-weight: 500;
     background-size:auto 100% !important;
   }
 }
+/* ==============================================About us============================================== */
+.about-section
+  {
+    background-image: url(../images/bg-about.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size:100% 100% !important;
+}
+.mission-section{
+    background-image: url(../images/mission-bg.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size:100% 100% !important;
+}
+.text-link{
+  color: black;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.text-link:hover{
+   padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ff9900;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.misson-font{
+  font-size: 14px;
+  font-weight: bold;
+}
+.bullet-font{
+font-size: 0.9em;
+font-weight: 450;
+}
+@media (max-width: 780px){
+  .about-section
+  {
+    background-image: url(../images/bg-about.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size: auto 100% !important;
+}
+.mission-section{
+  background-image: url(../images/mission-bg.png);
+  background-repeat: no-repeat;  
+  width: 100%;
+  background-size:auto 100% !important;
+}
+}
