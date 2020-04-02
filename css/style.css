@@ -367,3 +367,44 @@ font-weight: 450;
   background-size:auto 100% !important;
 }
 }
+/* =====================================services=========================== */
+.btn-services{
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  padding: 4px 22px;
+  font-size: 12px;
+  border-radius: 25px;
+}
+.btn-services:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 22px;
+  font-size: 12px;
+  border-radius: 25px;
+}
+.img-service{
+  position: absolute; 
+  right: -25px; 
+  top: -30px;
+}
+.box-service{
+  border: 1px solid #ff9900; 
+  border-radius: 20px;
+   position: relative;
+}
+.service-section{
+  background-image: url(../images/bg-services.png);
+  background-repeat: no-repeat;  
+  width: 100%;
+  background-size:100% 100% !important;
+}
+@media (max-width: 780px){
+  .service-section{
+    background-image: url(../images/bg-services.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size:auto 100% !important;
+  }
+}
