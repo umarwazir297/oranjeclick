@@ -434,3 +434,24 @@ font-weight: 450;
     background-size:auto 100% !important;
   }
 }
+/* ===========================================portfolio Detail======================= */
+.heading-size{
+  font-size: 19px;
+}
+.inner4 {
+  width: 60px;
+  height: 1px;
+  margin: 0px ;
+  padding-top: 0.4rem;
+  border-bottom: 2px solid #ff9900;
+}
+.box-style3{
+  border-radius: 2px;
+   box-shadow: 0 0 2px rgba(0,0,0,0.3) inset, 0 0 2px rgba(0,0,0,0.3);
+   border-left: 5px solid #ff9900;
+   background-color: #000000;
+   color: white;
+}
+.text-box{
+  font-size: 12px;
+}
