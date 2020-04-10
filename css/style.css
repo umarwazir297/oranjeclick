@@ -525,3 +525,13 @@ font-weight: 450;
 .text-ser{
   font-size: 14px;
 }
+.float-card{
+	position:fixed;
+	width:160px;
+  height:60px;
+  bottom:80px;
+	right:0px;
+	border-radius:50px;
+  text-align:center;
+  z-index: 1;
+}
