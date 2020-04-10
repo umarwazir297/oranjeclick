@@ -492,6 +492,19 @@ font-weight: 450;
 .pointer{
   cursor: pointer;
 }
+.main{
+  border-radius:10px;
+  overflow:hidden;
+}
+.main:hover #Library{
+  transform: scale(1.1);
+  transition: all 0.9s ease-in;
+}
+
+.box-deco{
+  margin-top: -3rem; 
+  border-radius: 5px;
+}
 @media (max-width: 780px){
   .portfolio-section{
     background-image: url(../images/bg-portfolio.png);
@@ -525,6 +538,10 @@ font-weight: 450;
 .text-ser{
   font-size: 14px;
 }
+
+
+
+/* ========================================aditional====================================== */
 .float-card{
 	position:fixed;
 	width:160px;
@@ -535,3 +552,4 @@ font-weight: 450;
   text-align:center;
   z-index: 1;
 }
+
