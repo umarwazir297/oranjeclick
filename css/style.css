@@ -226,6 +226,9 @@ text-align: left;
 .shadow-card{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
 }
+.shadow-card-2{
+  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2), 0 0px 1px 0 rgba(0, 0, 0, 0.19); 
+}
 .blog-link{
 color: #ff9900 !important;
 font-weight: 500;
@@ -502,7 +505,7 @@ font-weight: 450;
 }
 
 .box-deco{
-  margin-top: -3rem; 
+  margin-top: -4rem; 
   border-radius: 5px;
 }
 @media (max-width: 780px){
@@ -511,6 +514,10 @@ font-weight: 450;
     background-repeat: no-repeat;  
     width: 100%;
     background-size:auto 100% !important;
+  }
+  .box-deco{
+    margin-top: -2rem; 
+    border-radius: 5px;
   }
 }
 /* ===========================================portfolio Detail======================= */
@@ -544,7 +551,7 @@ font-weight: 450;
 /* ========================================aditional====================================== */
 .float-card{
 	position:fixed;
-	width:160px;
+	width:120px;
   height:60px;
   bottom:280px;
 	right:0px;
