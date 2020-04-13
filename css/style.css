@@ -295,6 +295,13 @@ font-weight: 500;
   font-size: 0.6em;
   font-weight: 600;
 }
+.head-text{
+  font-size: 0.9em;
+}
+.text-team-2{
+  font-size: 0.6em;
+  font-weight: 600;
+}
 @media (max-width: 780px){
   .team-section{
     background-image: url(../images/bg_team.png);
