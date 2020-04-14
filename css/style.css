@@ -63,6 +63,11 @@ h6{
   .nav-link:hover{
       border-bottom: 1px solid #ff9900;
   }
+  .active-tab{
+    border-bottom: 1px solid #ff9900;
+    font-weight: bold !important;
+  }
+
   .btn-read{
     background-color: #ff9900;
     color: white !important;
@@ -159,7 +164,7 @@ text-align: left;
     font-size:14px;
   }
   .top-position{
-    padding-top: 12rem;
+    padding-top: 7.5rem;
      padding-bottom: 20rem;
   }
 @media (max-width: 780px){
