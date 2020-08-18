@@ -572,3 +572,9 @@ font-weight: 450;
   z-index: 1;
 }
 
+.center-class{
+  padding-left: 0.31rem; 
+  padding-right: 0.31rem; 
+  padding-top: 0.2rem; 
+  padding-bottom: 0.2rem;
+}
