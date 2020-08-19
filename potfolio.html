@@ -78,14 +78,14 @@
             <div class="row justify-content-center ">
                 <div class="col-12 col-md-3 p-3">
                     <div class="text-center">
-                        <a data-target="#" class="text-decoration-none text-link text-uppercase pointer"
-                            onclick="hideElementZero()">Mobile app development</a>
+                        <a data-target="#" class="text-decoration-none text-link activee text-uppercase pointer"
+                            onclick="hideElementZero()" id="btn1">Mobile app development</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 p-3">
                     <div class="text-center">
                         <a data-target="#" class="text-decoration-none text-link text-uppercase pointer"
-                            onclick="hideElementOne()">Web development</a>
+                            onclick="hideElementOne()" id="btn2">Web development</a>
                     </div>
                 </div>
 
@@ -482,6 +482,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script>
+            $('#btn1').click(function () {
+            $('#btn1').addClass('activee')
+            $('#btn2').removeClass('activee')
+        })
+        $('#btn2').click(function () {
+            $('#btn2').addClass('activee')
+            $('#btn1').removeClass('activee')
+        })
+        </script>
 </body>
 
 </html>
